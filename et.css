@@ -1,0 +1,18 @@
+/* Define the transition */
+.transition-example {
+    transition-property: opacity, transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+/* Example of applying the transition to an element */
+.element-to-transition {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Define the state after transition */
+.element-to-transition.hidden {
+    opacity: 0;
+    transform: translateY(-20px);
+}
